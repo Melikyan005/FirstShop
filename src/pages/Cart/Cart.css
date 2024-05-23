@@ -1,0 +1,38 @@
+.cart {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  width: 70%;
+}
+
+.carts > span {
+  font-size: 50px;
+}
+
+.cartSettings {
+  margin: 5px auto;
+}
+
+.cartSettings > button {
+  border: transparent;
+  background-color: transparent;
+  font-size: 22px;
+  cursor: pointer;
+  color: red;
+  padding-left: 40px;
+}
+
+.cartSettings > button:hover {
+  border: transparent;
+  cursor: pointer;
+  color: blue;
+}
+.cartPrice {
+  border: none;
+  border-radius: 20px;
+  background-color: red;
+  padding: 7px 15px;
+  font-size: 30px;
+  max-width: 25%;
+}

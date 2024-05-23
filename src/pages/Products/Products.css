@@ -1,0 +1,9 @@
+.all-products {
+  padding: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 55px;
+  background-color: rgb(222, 220, 225);
+  /* rgb(152, 141, 174); */
+}

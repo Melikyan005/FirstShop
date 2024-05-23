@@ -1,0 +1,46 @@
+.productCard{
+    border: none;
+    width: 380px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    background-color:aliceblue;
+    
+}
+
+
+
+.productCard> a>img{
+    width: 180px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.productCard> span{
+    font-size: 28px;
+    color: red;
+    padding: 4px 5px;
+    background-color: black;
+    border-radius: 10px;
+}
+.addCartBtn{
+    padding: 10px 50px;
+    border-radius: 10px;
+    border: transparent;
+    background-color:yellow;
+    font-size: 19px;
+    cursor: pointer;
+    color:rgb(22, 139, 16);
+}
+
+.addCartBtn:hover{
+    border-radius: 10px;
+    border: transparent;
+    background-color: rgb(22, 139, 16);
+    font-size: 19px;
+    cursor: pointer;
+    color: yellow;;
+}

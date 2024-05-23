@@ -1,0 +1,27 @@
+.product-simple{
+    padding-top: 50px;
+    display: flex;
+    align-items:self-start;
+    column-gap: 60px;
+   
+
+}
+
+.product-simple>img{
+width: 400px;
+}
+
+.aboutProduct{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: self-start;
+}
+
+.aboutProduct>span{
+    font-size: 28px;
+    color: red;
+    padding: 4px 5px;
+    background-color: black;
+    border-radius: 10px;
+}

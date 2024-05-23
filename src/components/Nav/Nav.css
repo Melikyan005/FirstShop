@@ -1,0 +1,35 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background-color: rgb(200, 199, 202);
+  border-bottom: 1px solid rgb(162, 161, 163);
+
+  font-family: monospace;
+  font-size: 25px;
+ 
+}
+
+.links {
+  display: flex;
+  column-gap: 40px;
+}
+a{
+   text-decoration: none;
+   position: relative;
+}
+.cartCount{
+position: absolute;
+font-size: 15px;
+color:white;
+background-color: red;
+border-radius: 2px;
+top: -6px;
+right: -5px;
+padding: 0 2px;
+}
+
+.rightBlok{
+  display: flex;
+  column-gap: 15px;
+}
